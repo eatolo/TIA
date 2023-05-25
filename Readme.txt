@@ -6,25 +6,30 @@ The data contains information from the 1990 California census. So although it ma
 Content
 The data pertains to the houses found in a given California district and some summary stats about them based on the 1990 census data. Be warned the data aren't cleaned so there are some preprocessing steps required! The columns are as follows, their names are pretty self explanitory:
 
-longitude
+1. longitude: It is the geographical longitude of the location of the dwelling, measured in degrees.
 
-latitude
+2. latitude: It is the geographic latitude of the location of the dwelling, measured in degrees.
 
-housing_median_age
+3. housing_median_age: It is the median age of the houses in the area, measured in years.
 
-total_rooms
+4. total_rooms: It is the total number of rooms in the dwellings in the area.
 
-total_bedrooms
+5. total_bedrooms: It is the total number of sleeping rooms in the dwellings in the area.
 
-population
+6. population: It is the total number of people residing in the area.
 
-households
+7. households: It is the total number of households in the area.
 
-median_income
+8. median_income: This is the median household income in the area, measured in tens of thousands of dollars.
 
-median_house_value
+9. median_house_value: It is the median value of homes in the area, measured in dollars.
 
-ocean_proximity
+10. ocean_proximity: It is the proximity of the house to the Pacific Ocean. The possible values are:
+- <1H OCEAN: Less than an hour away from the ocean.
+- INLAND: Inside the region.
+- NEAR OCEAN: At a distance close to the ocean.
+- NEAR BAY: Near the San Francisco Bay.
+- ISLAND: On an island.
 
 Acknowledgements
 This data was initially featured in the following paper:
